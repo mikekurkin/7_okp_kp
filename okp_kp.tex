@@ -233,11 +233,16 @@
 
 \subparagraph{T01} Сверление $\diameter 18,5$ \
 
+Глубина резания определяется по формуле:
+$$ t = \frac{D}{2} = \frac{18,5}{2} = \SI{9,25}{\milli\meter} $$
+
+Осевая подача корректируется по формуле:
 $$ S_o = {S_o}_\text{т} K_{S_\text{м}} $$
 
 $ {S_o}_\text{т} = \SI{0,56}{\milli\meter\per\rev} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{S_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
+Скорость резания корректируется по фомруле:
 $$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{l}} K_{V_\text{п}} $$ 
 
 $ V_\text{т} = \SI{22,8}{\meter\per\minute} $ \cite[карта 46]{guzeev:rr} \par
@@ -250,10 +255,11 @@ $ K_{V_\text{м}} = K_{V_\text{з}} = K_{V_\text{ж}} = K_{V_\text{т}} = K_{V_\
   V_s = S_o n = 0,56 \cdot 392,3 = \SI{219,7}{\milli\meter\per\minute}
 \end{gather*}
 
-Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{355}{\rev\per\minute}, S_o = \SI{0,56}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{198,8}{\milli\meter\per\minute}$. Фактическая скорость резания:
+Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{355}{\rev\per\minute}, {S_o}_\text{ф} = \SI{0,56}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{198,8}{\milli\meter\per\minute}$. Фактическая скорость резания:
 
 $$ V_\text{ф} = \frac{\pi D n}{1000} = \frac{\pi \cdot 18,5 \cdot 355}{1000} = \SI{20,6}{\meter\per\minute} $$
 
+Мощность резания корректируется по формуле:
 $$ N = \frac{N_\text{т}}{K_{N_\text{м}}} $$
 
 $ N_\text{t} = \SI{2,74}{\kilo\watt} $ \cite[карта 46]{guzeev:rr} \par
@@ -261,6 +267,7 @@ $ K_{N_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
 $$ N = \frac{2,74}{1,0} = \SI{2,74}{\kilo\watt} $$
 
+Осевая сила резания корректируется по формуле:
 $$ P = \frac{P_\text{т}}{K_{P_\text{м}}} $$
 
 $ P_\text{t} = \SI{8087}{\newton} $ \cite[карта 46]{guzeev:rr} \par
@@ -270,44 +277,141 @@ $$ P = \frac{8087}{1,0} = \SI{8087}{\newton} $$
 
 \subparagraph{T02} Сверление $\diameter 10,2$ \
 
+Глубина резания определяется по формуле:
+$$ t = \frac{D}{2} = \frac{10,2}{2} = \SI{5,1}{\milli\meter} $$
+
+Осевая подача корректируется по формуле:
 $$ S_o = {S_o}_\text{т} K_{S_\text{м}} $$
 
-$ {S_o}_\text{т} = \SI{0,56}{\milli\meter\per\rev} $ \cite[карта 46]{guzeev:rr} \par
+$ {S_o}_\text{т} = \SI{0,42}{\milli\meter\per\rev} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{S_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
+Скорость резания корректируется по фомруле:
 $$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{l}} K_{V_\text{п}} $$ 
 
-$ V_\text{т} = \SI{22,8}{\meter\per\minute} $ \cite[карта 46]{guzeev:rr} \par
+$ V_\text{т} = \SI{25,2}{\meter\per\minute} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{V_\text{м}} = K_{V_\text{з}} = K_{V_\text{ж}} = K_{V_\text{т}} = K_{V_\text{w}} = K_{V_\text{и}} = K_{V_\text{l}} = K_{V_\text{п}} = 1,0 $ \cite[карта 53]{guzeev:rr} 
 
 \begin{gather*}
-  S_o = 0,56 \cdot 1,0 = \SI{0,56}{\milli\meter\per\rev} \\
-  V = 22,8 \cdot 1,0 = \SI{22,8}{\meter\per\minute} \\
-  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 22,8}{\pi \cdot 18,5} = \SI{392,3}{\rev\per\minute} \\
-  V_s = S_o n = 0,56 \cdot 392,3 = \SI{219,7}{\milli\meter\per\minute}
+  S_o = 0,42 \cdot 1,0 = \SI{0,42}{\milli\meter\per\rev} \\
+  V = 25,2 \cdot 1,0 = \SI{25,2}{\meter\per\minute} \\
+  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 25,2}{\pi \cdot 10,2} = \SI{786,4}{\rev\per\minute} \\
+  V_s = S_o n = 0,42 \cdot 768,4 = \SI{330,3}{\milli\meter\per\minute}
 \end{gather*}
 
-Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{355}{\rev\per\minute}, S_o = \SI{0,56}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{198,8}{\milli\meter\per\minute}$. Фактическая скорость резания:
+Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{750}{\rev\per\minute}, {S_o}_\text{ф} = \SI{0,42}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{315}{\milli\meter\per\minute}$. Фактическая скорость резания:
 
-$$ V_\text{ф} = \frac{\pi D n}{1000} = \frac{\pi \cdot 18,5 \cdot 355}{1000} = \SI{20,6}{\meter\per\minute} $$
+$$ V_\text{ф} = \frac{\pi D n}{1000} = \frac{\pi \cdot 10,2 \cdot 750}{1000} = \SI{24,0}{\meter\per\minute} $$
 
+Мощность резания корректируется по формуле:
 $$ N = \frac{N_\text{т}}{K_{N_\text{м}}} $$
 
-$ N_\text{t} = \SI{2,74}{\kilo\watt} $ \cite[карта 46]{guzeev:rr} \par
+$ N_\text{t} = \SI{1,34}{\kilo\watt} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{N_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
-$$ N = \frac{2,74}{1,0} = \SI{2,74}{\kilo\watt} $$
+$$ N = \frac{1,34}{1,0} = \SI{1,34}{\kilo\watt} $$
 
+Осевая сила резания корректируется по формуле:
 $$ P = \frac{P_\text{т}}{K_{P_\text{м}}} $$
 
-$ P_\text{t} = \SI{8087}{\newton} $ \cite[карта 46]{guzeev:rr} \par
+$ P_\text{t} = \SI{3675}{\newton} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{P_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
-$$ P = \frac{8087}{1,0} = \SI{8087}{\newton} $$
+$$ P = \frac{3675}{1,0} = \SI{3675}{\newton} $$
 
-\subparagraph{T03} Зенкерование \
+\subparagraph{T03} Зенкерование $\diameter 19,7$\
 
-$$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{l}} K_{V_\text{i}} K_{V_\text{п}} $$
+Глубина резания определяется по формуле:
+$$ t = \frac{D-d}{2} = \frac{19,7-18,5}{2} = \SI{0,6}{\milli\meter} $$
+
+Осевая подача корректируется по формуле:
+$$ S_o = {S_o}_\text{т} K_{S_\text{м}} $$
+
+$ {S_o}_\text{т} = \SI{0,74}{\milli\meter\per\rev} $ \cite[карта 48]{guzeev:rr} \par
+$ K_{S_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
+
+Скорость резания корректируется по фомруле:
+$$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{i}} K_{V_\text{п}} $$
+
+$ V_\text{т} = \SI{27,8}{\meter\per\minute} $ \cite[карта 48]{guzeev:rr} \par
+$ K_{V_\text{м}} = K_{V_\text{з}} = K_{V_\text{ж}} = K_{V_\text{т}} = K_{V_\text{w}} = K_{V_\text{и}} = K_{V_\text{п}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$K_{V_\text{i}} = 0,98$ \cite[карта 53]{guzeev:rr}
+
+\begin{gather*}
+  S_o = 0,74 \cdot 1,0 = \SI{0,74}{\milli\meter\per\rev} \\
+  V = 27,8 \cdot 1,0 \cdot 0,98 = \SI{27,2}{\meter\per\minute} \\
+  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 27,2}{\pi \cdot 19,7} = \SI{440,2}{\rev\per\minute} \\
+  V_s = S_o n = 0,74 \cdot 440,2 = \SI{325,8}{\milli\meter\per\minute}
+\end{gather*}
+
+Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{400}{\rev\per\minute}, {S_o}_\text{ф} = \SI{0,74}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{296}{\milli\meter\per\minute}$. Фактическая скорость резания:
+
+$$ V_\text{ф} = \frac{\pi D n}{1000} = \frac{\pi \cdot 19,7 \cdot 400}{1000} = \SI{24,8}{\meter\per\minute} $$
+
+Мощность резания корректируется по формуле:
+$$ N = N_\text{т} \frac{K_{N_\text{i}}}{K_{N_\text{м}}} $$
+
+$ N_\text{t} = \SI{0,91}{\kilo\watt} $ \cite[карта 48]{guzeev:rr} \par
+$ K_{N_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$ K_{N_\text{i}} = 1,08 $ \cite[карта 53]{guzeev:rr}
+
+$$ N = 1,34 \frac{1,08}{1,0} = \SI{1,45}{\kilo\watt} $$
+
+Осевая сила резания корректируется по формуле:
+$$ P = P_\text{т} \frac{K_{P_\text{i}}}{K_{P_\text{м}}} $$
+
+$ P_\text{t} = \SI{152}{\newton} $ \cite[карта 48]{guzeev:rr} \par
+$ K_{P_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$ K_{P_\text{i}} = 1,1 $ \cite[карта 53]{guzeev:rr}
+
+$$ P = 152 \frac{1,1}{1,0} = \SI{167,2}{\newton} $$
+
+\subparagraph{T04} Развёртывание $\diameter 20$\
+
+Глубина резания определяется по формуле:
+$$ t = \frac{D-d}{2} = \frac{20-19,7}{2} = \SI{0,15}{\milli\meter} $$
+
+Осевая подача корректируется по формуле:
+$$ S_o = {S_o}_\text{т} K_{S_\text{м}} $$
+
+$ {S_o}_\text{т} = \SI{0,76}{\milli\meter\per\rev} $ \cite[карта 49]{guzeev:rr} \par
+$ K_{S_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
+
+Скорость резания корректируется по фомруле:
+$$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{i}} K_{V_\text{п}} $$
+
+$ V_\text{т} = \SI{15,0}{\meter\per\minute} $ \cite[карта 49]{guzeev:rr} \par
+$ K_{V_\text{м}} = K_{V_\text{з}} = K_{V_\text{ж}} = K_{V_\text{т}} = K_{V_\text{w}} = K_{V_\text{и}} = K_{V_\text{п}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$K_{V_\text{i}} = 0,84$ \cite[карта 53]{guzeev:rr}
+
+\begin{gather*}
+  S_o = 0,76 \cdot 1,0 = \SI{0,76}{\milli\meter\per\rev} \\
+  V = 15 \cdot 1,0 \cdot 0,84 = \SI{12,6}{\meter\per\minute} \\
+  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 12,6}{\pi \cdot 20} = \SI{200,5}{\rev\per\minute} \\
+  V_s = S_o n = 0,76 \cdot 200,5 = \SI{152,4}{\milli\meter\per\minute}
+\end{gather*}
+
+Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{200}{\rev\per\minute}, {S_o}_\text{ф} = \SI{0,76}{\milli\meter\per\rev}$; тогда ${V_S}_\text{ф} = \SI{152}{\milli\meter\per\minute}$. Фактическая скорость резания:
+
+$$ V_\text{ф} = \frac{\pi D n}{1000} = \frac{\pi \cdot 20 \cdot 200}{1000} = \SI{12,5}{\meter\per\minute} $$
+
+Мощность резания корректируется по формуле:
+$$ N = N_\text{т} \frac{K_{N_\text{i}}}{K_{N_\text{м}}} $$
+
+$ N_\text{t} = \SI{0,39}{\kilo\watt} $ \cite[карта 49]{guzeev:rr} \par
+$ K_{N_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$ K_{N_\text{i}} = 1,92 $ \cite[карта 53]{guzeev:rr}
+
+$$ N = 0,39 \frac{1,92}{1,0} = \SI{0,75}{\kilo\watt} $$
+
+Осевая сила резания корректируется по формуле:
+$$ P = P_\text{т} \frac{K_{P_\text{i}}}{K_{P_\text{м}}} $$
+
+$ P_\text{t} = \SI{19}{\newton} $ \cite[карта 49]{guzeev:rr} \par
+$ K_{P_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr} \par
+$ K_{P_\text{i}} = 2,4 $ \cite[карта 53]{guzeev:rr}
+
+$$ P = 19 \frac{2,4}{1,0} = \SI{45,6}{\newton} $$
 
 \subsection{Техническое нормирование}
 \subsection{Выбор методов и средств операционного контроля}

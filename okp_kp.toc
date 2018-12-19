@@ -15,26 +15,27 @@
 \contentsline {subsection}{\numberline {2.1.5}Расчёт режимов и сил резания}{12}{subsection.2.1.5}
 \contentsline {subparagraph}{T01}{12}{subparagraph*.8}
 \contentsline {subparagraph}{T02}{13}{subparagraph*.9}
-\contentsline {subparagraph}{T03}{13}{subparagraph*.10}
-\contentsline {subsection}{\numberline {2.1.6}Техническое нормирование}{13}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}Выбор методов и средств операционного контроля}{13}{subsection.2.1.7}
-\contentsline {section}{\numberline {2.2}Проектирование фрезерной операции}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Выбор и характеристика оборудования}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Выбор и обоснование схемы базирования}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Выбор и обоснование последовательности и содержания переходов}{15}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Выбор и характеристика режущего инструмента}{16}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Расчёт режимов и сил резания}{16}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Техническое нормирование}{16}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Выбор методов и средств операционного контроля}{16}{subsection.2.2.7}
-\contentsline {chapter}{\numberline {3}Расчёт и проектирование станочных приспособлений}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Приспособление для расточной операции с ЧПУ}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Характеристика и описание принципа работы приспособления}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Силовой расчёт приспособления}{17}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Прочностной расчёт приспособления}{17}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Точностной расчёт приспособления}{17}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Приспособление для фрезерной операции}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Характеристика и описание принципа работы приспособления}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Силовой расчёт приспособления}{17}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Прочностной расчёт приспособления}{17}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Точностной расчёт приспособления}{17}{subsection.3.2.4}
-\contentsline {likechapter}{Список использованных источников}{18}{subsection.3.2.4}
+\contentsline {subparagraph}{T03}{15}{subparagraph*.10}
+\contentsline {subparagraph}{T04}{16}{subparagraph*.11}
+\contentsline {subsection}{\numberline {2.1.6}Техническое нормирование}{18}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Выбор методов и средств операционного контроля}{18}{subsection.2.1.7}
+\contentsline {section}{\numberline {2.2}Проектирование фрезерной операции}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Выбор и характеристика оборудования}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Выбор и обоснование схемы базирования}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Выбор и обоснование последовательности и содержания переходов}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Выбор и характеристика режущего инструмента}{21}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Расчёт режимов и сил резания}{21}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Техническое нормирование}{21}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Выбор методов и средств операционного контроля}{21}{subsection.2.2.7}
+\contentsline {chapter}{\numberline {3}Расчёт и проектирование станочных приспособлений}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Приспособление для расточной операции с ЧПУ}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Характеристика и описание принципа работы приспособления}{22}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Силовой расчёт приспособления}{22}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Прочностной расчёт приспособления}{22}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Точностной расчёт приспособления}{22}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Приспособление для фрезерной операции}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Характеристика и описание принципа работы приспособления}{22}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Силовой расчёт приспособления}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Прочностной расчёт приспособления}{22}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Точностной расчёт приспособления}{22}{subsection.3.2.4}
+\contentsline {likechapter}{Список использованных источников}{23}{subsection.3.2.4}
