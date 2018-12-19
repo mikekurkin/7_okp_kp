@@ -1,0 +1,352 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bezyazichny:otm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e0a69400cea378fc182b6142324a310b}{%
+           family={Безъязычный},
+           familyi={Б\bibinitperiod},
+           given={В.\bibnamedelimi Ф.},
+           giveni={В\bibinitperiod\bibinitdelim Ф\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Машиностроение}%
+      }
+      \strng{namehash}{e0a69400cea378fc182b6142324a310b}
+      \strng{fullhash}{e0a69400cea378fc182b6142324a310b}
+      \strng{bibnamehash}{e0a69400cea378fc182b6142324a310b}
+      \strng{authorbibnamehash}{e0a69400cea378fc182b6142324a310b}
+      \strng{authornamehash}{e0a69400cea378fc182b6142324a310b}
+      \strng{authorfullhash}{e0a69400cea378fc182b6142324a310b}
+      \field{sortinit}{Б}
+      \field{sortinithash}{c6a6c4dd2ac62c1bcce7a17ae8a72f59}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Режим доступа}
+      \field{langid}{russian}
+      \field{pagetotal}{567~с.~: ил.}
+      \field{subtitle}{учебник для вузов}
+      \field{title}{Основы технологии машиностроения}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://e.lanbook.com/book/37005
+      \endverb
+      \verb{url}
+      \verb https://e.lanbook.com/book/37005
+      \endverb
+    \endentry
+    \entry{blumenstejn:pto}{book}{}
+      \name{author}{2}{}{%
+        {{hash=e708b7a6338c7ec9da64152a3495ed99}{%
+           family={Блюменштейн},
+           familyi={Б\bibinitperiod},
+           given={В.\bibnamedelimi Ю.},
+           giveni={В\bibinitperiod\bibinitdelim Ю\bibinitperiod}}}%
+        {{hash=6a909a9c151c069b6ace4e5cc2c40f96}{%
+           family={Клепцов},
+           familyi={К\bibinitperiod},
+           given={А.\bibnamedelimi А.},
+           giveni={А\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Лань}%
+      }
+      \strng{namehash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \strng{fullhash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \strng{bibnamehash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \strng{authorbibnamehash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \strng{authornamehash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \strng{authorfullhash}{43a1c1a2fa044c8b762c29c3da95c521}
+      \field{sortinit}{Б}
+      \field{sortinithash}{c6a6c4dd2ac62c1bcce7a17ae8a72f59}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2-е изд., испр. и доп.}
+      \field{langid}{russian}
+      \field{pagetotal}{224~с.}
+      \field{title}{Проектирование технологической оснастки}
+      \field{year}{2011}
+    \endentry
+    \entry{gost:14-205-83}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 14.205--83}
+      \field{langid}{russian}
+      \field{title}{ЕСТПП. Технологичность конструкции изделий. Термины и определения}
+    \endentry
+    \entry{gost:2-105-95}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 2.105-95}
+      \field{langid}{russian}
+      \field{title}{ЕСКД. Общие требования к текстовым документам}
+    \endentry
+    \entry{gost:2-121-73}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 2.121--73}
+      \field{langid}{russian}
+      \field{title}{ЕСКД. Технологический контроль конструкторской документации}
+    \endentry
+    \entry{gost:3-1118-88}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 3.1118-82}
+      \field{langid}{russian}
+      \field{title}{ЕСТД. Формы и правила оформления маршрутных карт}
+    \endentry
+    \entry{gost:3-1404-86}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 3.1404-86}
+      \field{langid}{russian}
+      \field{title}{ЕСТД. Формы и правила оформления документов на технологические процессы и операции обработки резанием}
+    \endentry
+    \entry{gost:3-1702-79}{reference}{}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labeltitlesource}{title}
+      \field{heading}{ГОСТ 3.1702-79}
+      \field{langid}{russian}
+      \field{title}{ЕСТД. Правила записи операций и переходов. Обработка резанием}
+    \endentry
+    \entry{guzeev:rr}{book}{}
+      \name{author}{3}{}{%
+        {{hash=700943d9b31b8064d9ecc8adaaaed5ef}{%
+           family={Гузеев},
+           familyi={Г\bibinitperiod},
+           given={В.\bibnamedelimi И.},
+           giveni={В\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+        {{hash=c31094c3547ebbc4fd6a70901bd04937}{%
+           family={Батуев},
+           familyi={Б\bibinitperiod},
+           given={В.\bibnamedelimi А.},
+           giveni={В\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+        {{hash=9412193a078f3414a16f1d22498f1486}{%
+           family={Сурков},
+           familyi={С\bibinitperiod},
+           given={И.\bibnamedelimi В.},
+           giveni={И\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=038663dbb17512f9440d4b055d0d25a7}{%
+           family={Гузеева},
+           familyi={Г\bibinitperiod},
+           given={В.\bibnamedelimi И.},
+           giveni={В\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Машиностроение}%
+      }
+      \strng{namehash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{fullhash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{bibnamehash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{authorbibnamehash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{authornamehash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{authorfullhash}{885d102ec6d239fb523240a79b1aaf48}
+      \strng{editorbibnamehash}{038663dbb17512f9440d4b055d0d25a7}
+      \strng{editornamehash}{038663dbb17512f9440d4b055d0d25a7}
+      \strng{editorfullhash}{038663dbb17512f9440d4b055d0d25a7}
+      \field{sortinit}{Г}
+      \field{sortinithash}{9c22aea4229880a27b21fd098766b7ec}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2-е изд.}
+      \field{langid}{russian}
+      \field{pagetotal}{368~с.}
+      \field{subtitle}{Справочник}
+      \field{title}{Режимы резания для токарных и сверлильно-фрезерно-расточных станков с числовым программным управлением}
+      \field{year}{2007}
+    \endentry
+    \entry{malvyat:okp}{book}{}
+      \name{author}{2}{}{%
+        {{hash=040989395de93fa387fb2e4a3f70b05a}{%
+           family={Малышев},
+           familyi={М\bibinitperiod},
+           given={Е.\bibnamedelimi Н.},
+           giveni={Е\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=839a6e122433eb82a1f03a21bf36efde}{%
+           family={Вяткин},
+           familyi={В\bibinitperiod},
+           given={А.\bibnamedelimi Г.},
+           giveni={А\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Калуга}%
+      }
+      \list{publisher}{1}{%
+        {Калужский филиал МГТУ им. Н.~Э.~Баумана}%
+      }
+      \strng{namehash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \strng{fullhash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \strng{bibnamehash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \strng{authorbibnamehash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \strng{authornamehash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \strng{authorfullhash}{793f53d6e5c29d2e0de866c75a130a2f}
+      \field{sortinit}{М}
+      \field{sortinithash}{11b28047c101b9f82aa840642eb667d1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{pagetotal}{18~с.~:~ил.}
+      \field{subtitle}{Методические указания по выполнению курсового проекта по дисциплине «Основы конструирования приспособлений»}
+      \field{title}{Проектирование станочных приспособлений}
+      \field{year}{2018}
+    \endentry
+    \entry{kosilova:stm2}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=01a56408db12bc684b08f5e8e378d979}{%
+           family={А.\bibnamedelimi Г.\bibnamedelimi Косиловой},
+           familyi={А\bibinitperiod\bibinitdelim Г\bibinitperiod\bibinitdelim К\bibinitperiod},
+           given={Р.\bibnamedelimi К.\bibnamedelimi Мещерякова},
+           giveni={Р\bibinitperiod\bibinitdelim К\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Машиностроение}%
+      }
+      \strng{editorbibnamehash}{01a56408db12bc684b08f5e8e378d979}
+      \strng{editornamehash}{01a56408db12bc684b08f5e8e378d979}
+      \strng{editorfullhash}{01a56408db12bc684b08f5e8e378d979}
+      \field{sortinit}{С}
+      \field{sortinithash}{ce0cf45cce19ff0db4b19e723e9385a4}
+      \field{labeltitlesource}{title}
+      \field{edition}{4-е~изд., перераб. и доп.}
+      \field{langid}{russian}
+      \field{pagetotal}{496~с.~: ил.}
+      \field{subtitle}{в 2-x~т. Т2}
+      \field{title}{Справочник конструктора-машиностроителя}
+      \field{year}{1986}
+    \endentry
+    \entry{tarabarin:pto}{book}{}
+      \name{author}{3}{}{%
+        {{hash=7b0d9c968ad1df5b4140692ef14c7571}{%
+           family={Тарабаринн},
+           familyi={Т\bibinitperiod},
+           given={О.\bibnamedelimi И.},
+           giveni={О\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+        {{hash=775814b3374ab2fba45e623f3ed9a0c5}{%
+           family={Абызов},
+           familyi={А\bibinitperiod},
+           given={А.\bibnamedelimi П.},
+           giveni={А\bibinitperiod\bibinitdelim П\bibinitperiod}}}%
+        {{hash=e82817409a2c125e05e475e6e8fd23f3}{%
+           family={Ступко},
+           familyi={С\bibinitperiod},
+           given={В.\bibnamedelimi Б.},
+           giveni={В\bibinitperiod\bibinitdelim Б\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Лань}%
+      }
+      \strng{namehash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \strng{fullhash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \strng{bibnamehash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \strng{authorbibnamehash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \strng{authornamehash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \strng{authorfullhash}{4a5ba52c4c9661b63f37c122fdeea25e}
+      \field{sortinit}{Т}
+      \field{sortinithash}{960b97571ad9107f949863372f181eae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2-е изд., испр. и доп.}
+      \field{langid}{russian}
+      \field{pagetotal}{304~с.}
+      \field{title}{Проектирование технологической оснастки в машиностроении}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://e.lanbook.com/book/5859
+      \endverb
+      \verb{url}
+      \verb https://e.lanbook.com/book/5859
+      \endverb
+    \endentry
+    \entry{burtsev:tm2}{book}{useauthor=false}
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=ac9527c37b6e63627bfa8941a1593ef6}{%
+           family={Бурцев},
+           familyi={Б\bibinitperiod},
+           given={В.\bibnamedelimi М.},
+           giveni={В\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+        {{hash=4b4b12d57faecd2a76916366b49e756e}{%
+           family={Васильев},
+           familyi={В\bibinitperiod},
+           given={А.\bibnamedelimi С.},
+           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
+        {{hash=691ed0ee8f1d820cce436f3c132dc3aa}{%
+           family={Гемба},
+           familyi={Г\bibinitperiod},
+           given={И.\bibnamedelimi Н.},
+           giveni={И\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {М.}%
+      }
+      \list{publisher}{1}{%
+        {Изд-во МГТУ им.~Н.~Э.~Баумана}%
+      }
+      \strng{authorbibnamehash}{e89778c86c2c70dbbe8a27e081b4b087}
+      \strng{authornamehash}{e89778c86c2c70dbbe8a27e081b4b087}
+      \strng{authorfullhash}{e89778c86c2c70dbbe8a27e081b4b087}
+      \field{sortinit}{Т}
+      \field{sortinithash}{960b97571ad9107f949863372f181eae}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{pagetotal}{368~с.}
+      \field{subtitle}{Производство машин: учебник для вузов}
+      \field{title}{Технология машиностроения}
+      \field{volumes}{2}
+      \field{year}{2012}
+      \field{volume}{2}
+      \range{volume}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

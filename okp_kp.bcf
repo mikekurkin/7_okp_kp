@@ -3248,18 +3248,27 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">malvyat:okp</bcf:citekey>
-    <bcf:citekey order="2">burtsev:tm2</bcf:citekey>
-    <bcf:citekey order="3">bezyazichny:otm</bcf:citekey>
-    <bcf:citekey order="4">blumenstejn:pto</bcf:citekey>
-    <bcf:citekey order="5">kosilova:stm2</bcf:citekey>
-    <bcf:citekey order="6">tarabarin:pto</bcf:citekey>
-    <bcf:citekey order="7">gost:2-121-73</bcf:citekey>
-    <bcf:citekey order="8">gost:14-205-83</bcf:citekey>
-    <bcf:citekey order="9">gost:3-1404-86</bcf:citekey>
-    <bcf:citekey order="10">gost:3-1118-88</bcf:citekey>
-    <bcf:citekey order="11">gost:2-105-95</bcf:citekey>
-    <bcf:citekey order="12">gost:3-1702-79</bcf:citekey>
+    <bcf:citekey order="1">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="2">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="3">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="4">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="5">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="6">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="7">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="8">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="9">guzeev:rr</bcf:citekey>
+    <bcf:citekey order="10">malvyat:okp</bcf:citekey>
+    <bcf:citekey order="11">burtsev:tm2</bcf:citekey>
+    <bcf:citekey order="12">bezyazichny:otm</bcf:citekey>
+    <bcf:citekey order="13">blumenstejn:pto</bcf:citekey>
+    <bcf:citekey order="14">kosilova:stm2</bcf:citekey>
+    <bcf:citekey order="15">tarabarin:pto</bcf:citekey>
+    <bcf:citekey order="16">gost:2-121-73</bcf:citekey>
+    <bcf:citekey order="17">gost:14-205-83</bcf:citekey>
+    <bcf:citekey order="18">gost:3-1404-86</bcf:citekey>
+    <bcf:citekey order="19">gost:3-1118-88</bcf:citekey>
+    <bcf:citekey order="20">gost:2-105-95</bcf:citekey>
+    <bcf:citekey order="21">gost:3-1702-79</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

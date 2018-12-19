@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.8)  18 DEC 2018 23:50
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.8)  19 DEC 2018 04:42
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/mk/Documents/LaTeX/7_okp_kp/okp_kp
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.534 seconds
+luaotfload | main : initialization completed in 0.412 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/extsizes/extreport.cls
 Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -2106,11 +2106,11 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = okp_kp.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'okp_kp.bbl' not found.
-
-No file okp_kp.bbl.
+Package biblatex Info: ... file 'okp_kp.bbl' found.
+ (./okp_kp.bbl)
 Package biblatex Info: Reference section=0 on input line 45.
 Package biblatex Info: Reference segment=0 on input line 45.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -2348,186 +2348,163 @@ File: ./graphics/bases_040.pdf Graphic file (type pdf)
 Package luatex.def Info: ./graphics/bases_040.pdf  used on input line 184.
 (luatex.def)             Requested size: 318.66948pt x 96.03752pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 237.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 237.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 224.
  [10<./graphics/bases_040.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 238.
+(babel)             in language  on input line 231.
  [11]
-<./graphics/spr_65a80_1.jpg, id=171, 436.63126pt x 267.24844pt>
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 264.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 264.
+ [12]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 284.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 284.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 294.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 294.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 294.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 294.
+ [13]
+<./graphics/spr_65a80_1.jpg, id=196, 436.63126pt x 267.24844pt>
 File: ./graphics/spr_65a80_1.jpg Graphic file (type jpg)
 <use ./graphics/spr_65a80_1.jpg>
-Package luatex.def Info: ./graphics/spr_65a80_1.jpg  used on input line 260.
+Package luatex.def Info: ./graphics/spr_65a80_1.jpg  used on input line 313.
 (luatex.def)             Requested size: 204.85846pt x 125.38657pt.
 File: ./graphics/spr_2206vmf4_2.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_2.jpg>
-Package luatex.def Info: ./graphics/spr_2206vmf4_2.jpg  used on input line 266.
+Package luatex.def Info: ./graphics/spr_2206vmf4_2.jpg  used on input line 319.
 (luatex.def)             Requested size: 204.85846pt x 129.348pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 327.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 327.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 327.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 274.
- [12<./graphics/spr_65a80_1.jpg>]
-<./graphics/bases_045.pdf, id=180, 398.48875pt x 284.06125pt>
+(babel)             in language  on input line 327.
+ [14<./graphics/spr_65a80_1.jpg>]
+<./graphics/bases_045.pdf, id=204, 398.48875pt x 284.06125pt>
 File: ./graphics/bases_045.pdf Graphic file (type pdf)
 <use ./graphics/bases_045.pdf>
-Package luatex.def Info: ./graphics/bases_045.pdf  used on input line 281.
+Package luatex.def Info: ./graphics/bases_045.pdf  used on input line 334.
 (luatex.def)             Requested size: 318.66948pt x 227.17126pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 366.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 366.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 366.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 320.
- [13<./graphics/bases_045.pdf>]
+(babel)             in language  on input line 366.
+ [15<./graphics/bases_045.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 320.
- [14]
+(babel)             in language  on input line 377.
+ [16]
 Глава 3.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 322.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 322.
+(babel)             in language  on input line 379.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 394.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 394.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 394.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 337.
-[15
+(babel)             in language  on input line 394.
+[17
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 394.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 337.
-
-
-LaTeX Warning: Citation 'malvyat:okp' undefined on input line 339.
-
-
-LaTeX Warning: Citation 'burtsev:tm2' undefined on input line 341.
-
-
-LaTeX Warning: Citation 'bezyazichny:otm' undefined on input line 342.
-
-
-LaTeX Warning: Citation 'blumenstejn:pto' undefined on input line 343.
-
-
-LaTeX Warning: Citation 'kosilova:stm2' undefined on input line 344.
-
-
-LaTeX Warning: Citation 'tarabarin:pto' undefined on input line 345.
-
-
-LaTeX Warning: Citation 'gost:2-121-73' undefined on input line 346.
-
-
-LaTeX Warning: Citation 'gost:14-205-83' undefined on input line 347.
-
-
-LaTeX Warning: Citation 'gost:3-1404-86' undefined on input line 348.
-
-
-LaTeX Warning: Citation 'gost:3-1118-88' undefined on input line 349.
-
-
-LaTeX Warning: Citation 'gost:2-105-95' undefined on input line 350.
-
-
-LaTeX Warning: Citation 'gost:3-1702-79' undefined on input line 351.
-
-
-LaTeX Warning: Empty bibliography on input line 353.
-
-
+(babel)             in language  on input line 394.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 410.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 410.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 410.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 410.
+ [18] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 413.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 413.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 413.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 356.
-[16]
+(babel)             in language  on input line 413.
+[19]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 413.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 356.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+(babel)             in language  on input line 413.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
  (./okp_kp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
 Package rerunfilecheck Info: File `okp_kp.out' has not changed.
 (rerunfilecheck)             Checksum: 77C9CD274B7FFB86B99F25F0AFAE3DD3;4408.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                okp_kp
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'okp_kp.run.xml'.
 
 \openout1 = okp_kp.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 52503 strings out of 494413
+ 52839 strings out of 494413
  125171,1977958 words of node,token memory allocated
- 1525 words of node memory still in use:
-   8 hlist, 2 vlist, 3 rule, 5 glue, 1 kern, 87 glyph, 25 attribute, 118 glue_spec, 25 attribute_list, 2 write nodes
-   avail lists: 1:3,2:1084,3:466,4:65,5:428,6:38,7:2932,8:102,9:326,10:12,11:430
- 54422 multiletter control sequences out of 65536+600000
+ 1562 words of node memory still in use:
+   8 hlist, 2 vlist, 3 rule, 5 glue, 1 kern, 87 glyph, 33 attribute, 119 glue_spec, 33 attribute_list, 2 write nodes
+   avail lists: 1:2,2:1306,3:487,4:71,5:456,6:36,7:2928,8:102,9:462,10:14,11:431
+ 54734 multiletter control sequences out of 65536+600000
  232 fonts using 76351167 bytes
- 66i,19n,70p,1610b,2902s stack positions out of 5000i,500n,10000p,200000b,100000s
-</Users/mk/Library/Fonts/xits-math.otf></Users/mk/Library/Fonts/xits-math.otf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman Italic.ttf></Library/Fonts/Times New Roman Bold Italic.ttf>
-Output written on okp_kp.pdf (15 pages, 929607 bytes).
+ 66i,20n,70p,1610b,2902s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></Users/mk/Library/Fonts/xits-math.otf></Users/mk/Library/Fonts/xits-math.otf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman Italic.ttf></Library/Fonts/Times New Roman Bold Italic.ttf>
+Output written on okp_kp.pdf (18 pages, 956401 bytes).
 
-PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 131072)
+PDF statistics: 329 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 131072)
  120 words of extra memory for PDF output out of 10000 (max. 100000000)
 
