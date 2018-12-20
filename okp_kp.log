@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.8)  19 DEC 2018 19:54
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.8)  20 DEC 2018 22:28
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/mk/Documents/LaTeX/7_okp_kp/okp_kp
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.237 seconds
+luaotfload | main : initialization completed in 0.240 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/extsizes/extreport.cls
 Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -1989,9 +1989,10 @@ Package biblatex Info: Trying to load language 'russian'...
 Package biblatex Info: ... file 'russian.lbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
 File: russian.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)) (./okp_kp.aux)
-\openout1 = okp_kp.aux
+))
+No file okp_kp.aux.
 
+\openout1 = okp_kp.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -2024,7 +2025,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -2079,7 +2080,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
- (./okp_kp.out) (./okp_kp.out)
 \@outlinefile=\write6
 
 \openout6 = okp_kp.out
@@ -2106,11 +2106,11 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = okp_kp.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'okp_kp.bbl' found.
- (./okp_kp.bbl)
+Package biblatex Info: ... file 'okp_kp.bbl' not found.
+
+No file okp_kp.bbl.
 Package biblatex Info: Reference section=0 on input line 45.
 Package biblatex Info: Reference segment=0 on input line 45.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -2169,7 +2169,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 (load luc: /Users/mk/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc)(load luc: /Users/mk/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc) (../title_bmstu_dz.tex
-<../coat.png, id=59, 2007.5pt x 2368.85pt>
+<../coat.png, id=7, 2007.5pt x 2368.85pt>
 File: ../coat.png Graphic file (type png)
 <use ../coat.png>
 Package luatex.def Info: ../coat.png  used on input line 7.
@@ -2220,7 +2220,6 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 51.
- (./okp_kp.toc)
 \tf@toc=\write7
 
 \openout7 = okp_kp.toc
@@ -2313,22 +2312,49 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 144.
  [8]
-<./graphics/spr_2206vmf4_1.jpg, id=120, 436.66295pt x 195.50937pt>
+
+LaTeX Warning: Reference `fig:2206' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `subfig:2206a' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Reference `sub@subfig:2206a' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `subfig:2206b' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Reference `sub@subfig:2206b' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `subfig:2206c' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Reference `sub@subfig:2206c' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `subfig:2206d' on page 9 undefined on input line 145.
+
+
+LaTeX Warning: Reference `sub@subfig:2206d' on page 9 undefined on input line 145.
+
+<./graphics/spr_2206vmf4_1.jpg, id=57, 436.66295pt x 195.50937pt>
 File: ./graphics/spr_2206vmf4_1.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_1.jpg>
 Package luatex.def Info: ./graphics/spr_2206vmf4_1.jpg  used on input line 151.
 (luatex.def)             Requested size: 204.85846pt x 91.72235pt.
-<./graphics/spr_2206vmf4_2.jpg, id=121, 431.33778pt x 272.3438pt>
+<./graphics/spr_2206vmf4_2.jpg, id=58, 431.33778pt x 272.3438pt>
 File: ./graphics/spr_2206vmf4_2.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_2.jpg>
 Package luatex.def Info: ./graphics/spr_2206vmf4_2.jpg  used on input line 157.
 (luatex.def)             Requested size: 204.85846pt x 129.348pt.
-<./graphics/spr_2206vmf4_3.jpg, id=122, 444.27031pt x 585.76736pt>
+<./graphics/spr_2206vmf4_3.jpg, id=59, 444.27031pt x 585.76736pt>
 File: ./graphics/spr_2206vmf4_3.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_3.jpg>
 Package luatex.def Info: ./graphics/spr_2206vmf4_3.jpg  used on input line 163.
 (luatex.def)             Requested size: 204.85846pt x 270.0998pt.
-<./graphics/spr_2206vmf4_4.jpg, id=123, 359.82852pt x 357.54631pt>
+<./graphics/spr_2206vmf4_4.jpg, id=60, 359.82852pt x 357.54631pt>
 File: ./graphics/spr_2206vmf4_4.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_4.jpg>
 Package luatex.def Info: ./graphics/spr_2206vmf4_4.jpg  used on input line 169.
@@ -2341,12 +2367,22 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 177.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 177.
- [9<./graphics/spr_2206vmf4_1.jpg><./graphics/spr_2206vmf4_2.jpg><./graphics/spr_2206vmf4_3.jpg><./graphics/spr_2206vmf4_4.jpg>]
-<./graphics/bases_040.pdf, id=131, 512.91624pt x 154.5775pt>
+[9<./graphics/spr_2206vmf4_1.jpg><./graphics/spr_2206vmf4_2.jpg><./graphics/spr_2206vmf4_3.jpg><./graphics/spr_2206vmf4_4.jpg>]
+
+LaTeX Warning: Reference `fig:b040' on page 10 undefined on input line 180.
+
+<./graphics/bases_040.pdf, id=66, 512.91624pt x 154.5775pt>
 File: ./graphics/bases_040.pdf Graphic file (type pdf)
 <use ./graphics/bases_040.pdf>
 Package luatex.def Info: ./graphics/bases_040.pdf  used on input line 184.
 (luatex.def)             Requested size: 318.66948pt x 96.03752pt.
+
+LaTeX Warning: Reference `tab:040' on page 10 undefined on input line 194.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 222.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 224.
 Package babel Info: Redefining russian shorthand "~
@@ -2355,7 +2391,10 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 224.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 224.
- [10<./graphics/bases_040.pdf>]
+[10<./graphics/bases_040.pdf>]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 11 undefined on input line 229.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "~
@@ -2364,7 +2403,27 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 231.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 231.
- [11]
+[11]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 12 undefined on input line 234.
+
+
+Overfull \hbox (16.9233pt too wide) in paragraph at lines 234--235
+[]\TU/TimesNewRoman(0)/m/n/14.4 Рас-чёт ве-дёт-ся таб-лич-ным ме-то-дом по ме-то-ди-ке, при-ве-дён-ной в [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 12 undefined on input line 244.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 12 undefined on input line 245.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 12 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 12 undefined on input line 251.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "~
@@ -2373,7 +2432,19 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 266.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 266.
- [12]
+[12]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 13 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 13 undefined on input line 269.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 13 undefined on input line 276.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 13 undefined on input line 277.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 302.
 Package babel Info: Redefining russian shorthand "~
@@ -2382,7 +2453,25 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 302.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 302.
- [13]
+[13]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 307.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 308.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 313.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 14 undefined on input line 332.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 334.
 Package babel Info: Redefining russian shorthand "~
@@ -2391,7 +2480,13 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 334.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 334.
- [14]
+[14]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 15 undefined on input line 339.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 15 undefined on input line 340.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 366.
 Package babel Info: Redefining russian shorthand "~
@@ -2400,7 +2495,31 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 366.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 366.
- [15]
+[15]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 368.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 369.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 374.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 375.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 376.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 393.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 394.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 16 undefined on input line 395.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 397.
 Package babel Info: Redefining russian shorthand "~
@@ -2409,7 +2528,22 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 397.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 397.
- [16]
+[16]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 17 undefined on input line 402.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 17 undefined on input line 403.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 17 undefined on input line 404.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 17 undefined on input line 429.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 17 undefined on input line 430.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 432.
 Package babel Info: Redefining russian shorthand "~
@@ -2418,7 +2552,25 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 432.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 432.
- [17]
+[17]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 435.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 436.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 437.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 454.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 455.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 18 undefined on input line 456.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 461.
 Package babel Info: Redefining russian shorthand "~
@@ -2427,7 +2579,22 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 461.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 461.
- [18]
+[18]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 19 undefined on input line 463.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 19 undefined on input line 464.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 19 undefined on input line 465.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 19 undefined on input line 490.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 19 undefined on input line 491.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 496.
 Package babel Info: Redefining russian shorthand "~
@@ -2436,7 +2603,25 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 496.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 496.
- [19]
+[19]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 506.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 514.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 515.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 522.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 20 undefined on input line 523.
+
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 525.
 Package babel Info: Redefining russian shorthand "~
@@ -2445,165 +2630,419 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 525.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 525.
- [20]
+[20]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 21 undefined on input line 553.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 21 undefined on input line 554.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 21 undefined on input line 559.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 559.
+(babel)             in language  on input line 560.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 559.
+(babel)             in language  on input line 560.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 559.
+(babel)             in language  on input line 560.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 559.
- [21]
+(babel)             in language  on input line 560.
+[21]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 22 undefined on input line 560.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 22 undefined on input line 577.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 22 undefined on input line 578.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 22 undefined on input line 585.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 22 undefined on input line 586.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 588.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 588.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 588.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 590.
- [22]
+(babel)             in language  on input line 588.
+[22]
+
+LaTeX Warning: Reference `tab:rr040' on page 23 undefined on input line 607.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 643.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 655.
+(babel)             in language  on input line 652.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 655.
+(babel)             in language  on input line 652.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 661.
+(babel)             in language  on input line 652.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 661.
+(babel)             in language  on input line 652.
+[23]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 24 undefined on input line 688.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 661.
+(babel)             in language  on input line 691.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 661.
- [23]
-<./graphics/spr_65a80_1.jpg, id=298, 436.63126pt x 267.24844pt>
+(babel)             in language  on input line 691.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 691.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 691.
+[24]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 25 undefined on input line 693.
+
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 25 undefined on input line 711.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 729.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 729.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 729.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 729.
+[25]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 26 undefined on input line 737.
+
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 26 undefined on input line 753.
+
+
+Overfull \hbox (33.86891pt too wide) in paragraph at lines 753--754
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для об-ра-бот-ки на фре-зер-ных стан-ках с ЧПУ $\TU/xits-math(1)/m/n/14.4 𝜑[] = 1,25$ \TU/TimesNewRoman(0)/m/n/14.4 [[]]. 
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 763.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 763.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 769.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 769.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 769.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 769.
+[26]
+
+LaTeX Warning: Reference `fig:65a80' on page 27 undefined on input line 786.
+
+
+LaTeX Warning: Hyper reference `subfig:65a80a' on page 27 undefined on input line 786.
+
+
+LaTeX Warning: Reference `sub@subfig:65a80a' on page 27 undefined on input line 786.
+
+
+LaTeX Warning: Hyper reference `subfig:65a80b' on page 27 undefined on input line 786.
+
+
+LaTeX Warning: Reference `sub@subfig:65a80b' on page 27 undefined on input line 786.
+
+<./graphics/spr_65a80_1.jpg, id=178, 436.63126pt x 267.24844pt>
 File: ./graphics/spr_65a80_1.jpg Graphic file (type jpg)
 <use ./graphics/spr_65a80_1.jpg>
-Package luatex.def Info: ./graphics/spr_65a80_1.jpg  used on input line 684.
+Package luatex.def Info: ./graphics/spr_65a80_1.jpg  used on input line 792.
 (luatex.def)             Requested size: 204.85846pt x 125.38657pt.
 File: ./graphics/spr_2206vmf4_2.jpg Graphic file (type jpg)
 <use ./graphics/spr_2206vmf4_2.jpg>
-Package luatex.def Info: ./graphics/spr_2206vmf4_2.jpg  used on input line 690.
+Package luatex.def Info: ./graphics/spr_2206vmf4_2.jpg  used on input line 798.
 (luatex.def)             Requested size: 204.85846pt x 129.348pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 805.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 805.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 805.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 696.
- [24]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 698.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 698.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 698.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 698.
- [25<./graphics/spr_65a80_1.jpg>]
-<./graphics/bases_045.pdf, id=313, 398.48875pt x 284.06125pt>
+(babel)             in language  on input line 805.
+[27]
+
+LaTeX Warning: Reference `fig:b045' on page 28 undefined on input line 809.
+
+<./graphics/bases_045.pdf, id=185, 398.48875pt x 284.06125pt>
 File: ./graphics/bases_045.pdf Graphic file (type pdf)
 <use ./graphics/bases_045.pdf>
-Package luatex.def Info: ./graphics/bases_045.pdf  used on input line 705.
+Package luatex.def Info: ./graphics/bases_045.pdf  used on input line 813.
 (luatex.def)             Requested size: 318.66948pt x 227.17126pt.
+
+LaTeX Warning: Reference `tab:045' on page 28 undefined on input line 823.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 824.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 824.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 824.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 737.
- [26<./graphics/bases_045.pdf>]
+(babel)             in language  on input line 824.
+[28<./graphics/spr_65a80_1.jpg><./graphics/bases_045.pdf>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 843.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 29 undefined on input line 848.
+
+
+Overfull \hbox (16.5495pt too wide) in paragraph at lines 848--849
+\TU/TimesNewRoman(0)/m/n/14.4 93. Ма-те-ри-ал ре-жу-ще-й ча-сти фре-зы --- быст-ро-ре-жу-щая сталь Р6М5 [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 29 undefined on input line 852.
+
+
+Overfull \hbox (15.7953pt too wide) in paragraph at lines 852--853
+[]\TU/TimesNewRoman(0)/m/n/14.4 Рас-чёт ве-дёт-ся таб-лич-ным ме-то-дом по ме-то-ди-ке, при-ве-дён-ной в [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 29 undefined on input line 865.
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 868.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 748.
- [27]
+(babel)             in language  on input line 868.
+[29]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 30 undefined on input line 868.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 30 undefined on input line 882.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 30 undefined on input line 885.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 30 undefined on input line 904.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 907.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 907.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 907.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 907.
+[30]
+
+LaTeX Warning: Citation 'guzeev:rr' on page 31 undefined on input line 907.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 31 undefined on input line 918.
+
+
+LaTeX Warning: Citation 'guzeev:rr' on page 31 undefined on input line 922.
+
+
+LaTeX Warning: Reference `tab:rr045' on page 31 undefined on input line 942.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 971.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 971.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 971.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 971.
+[31]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 32 undefined on input line 999.
+
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 32 undefined on input line 1004.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1009.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1009.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1009.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1009.
+[32]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 33 undefined on input line 1020.
+
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 33 undefined on input line 1046.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1050.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1050.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1050.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1050.
+[33]
+
+LaTeX Warning: Citation 'malzen:normirovanie' on page 34 undefined on input line 1062.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1072.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1072.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1072.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1072.
+[34]
 Глава 3.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 1072.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 748.
+(babel)             in language  on input line 1072.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 750.
+(babel)             in language  on input line 1074.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 750.
+(babel)             in language  on input line 1074.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 757.
+(babel)             in language  on input line 1081.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 757.
+(babel)             in language  on input line 1081.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 1089.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 1089.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 1089.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 765.
-[28
+(babel)             in language  on input line 1089.
+[35
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 1089.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 765.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 781.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 781.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 781.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 781.
- [29] 
+(babel)             in language  on input line 1089.
+
+
+LaTeX Warning: Citation 'malvyat:okp' undefined on input line 1091.
+
+
+LaTeX Warning: Citation 'burtsev:tm2' undefined on input line 1093.
+
+
+LaTeX Warning: Citation 'bezyazichny:otm' undefined on input line 1094.
+
+
+LaTeX Warning: Citation 'blumenstejn:pto' undefined on input line 1095.
+
+
+LaTeX Warning: Citation 'kosilova:stm2' undefined on input line 1096.
+
+
+LaTeX Warning: Citation 'tarabarin:pto' undefined on input line 1097.
+
+
+LaTeX Warning: Citation 'gost:2-121-73' undefined on input line 1098.
+
+
+LaTeX Warning: Citation 'gost:14-205-83' undefined on input line 1099.
+
+
+LaTeX Warning: Citation 'gost:3-1404-86' undefined on input line 1100.
+
+
+LaTeX Warning: Citation 'gost:3-1118-88' undefined on input line 1101.
+
+
+LaTeX Warning: Citation 'gost:2-105-95' undefined on input line 1102.
+
+
+LaTeX Warning: Citation 'gost:3-1702-79' undefined on input line 1103.
+
+
+LaTeX Warning: Empty bibliography on input line 1105.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 1108.
+
+
 AED: lastpage setting LastPage
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 784.
+(babel)             in language  on input line 1108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 784.
+(babel)             in language  on input line 1108.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 784.
+(babel)             in language  on input line 1108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 784.
-[30]
+(babel)             in language  on input line 1108.
+[36]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 784.
+(babel)             in language  on input line 1108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 784.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 784.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 784.
- (./okp_kp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 784.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 784.
-Package rerunfilecheck Info: File `okp_kp.out' has not changed.
-(rerunfilecheck)             Checksum: 4DDEBA6A4A66A02CF5631DF9C258C96B;4419.
+(babel)             in language  on input line 1108.
+
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1108.
+(./okp_kp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1108.
+
+
+Package rerunfilecheck Warning: File `okp_kp.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `okp_kp.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  4DDEBA6A4A66A02CF5631DF9C258C96B;4419.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                okp_kp
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'okp_kp.run.xml'.
 
 \openout1 = okp_kp.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 52857 strings out of 494413
+ 52773 strings out of 494413
  125171,1977958 words of node,token memory allocated
- 1732 words of node memory still in use:
-   7 hlist, 2 vlist, 3 rule, 2 glue, 1 kern, 87 glyph, 83 attribute, 119 glue_spec, 83 attribute_list, 2 write nodes
-   avail lists: 1:2,2:4468,3:595,4:143,5:594,6:40,7:2931,8:176,9:1055,10:14,11:431
- 54736 multiletter control sequences out of 65536+600000
- 232 fonts using 76351167 bytes
+ 1919 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 2 glue, 1 kern, 87 glyph, 131 attribute, 118 glue_spec, 131 attribute_list, 2 write nodes
+   avail lists: 1:5,2:5869,3:649,4:174,5:428,6:41,7:2934,8:190,9:1038,10:12,11:430
+ 54674 multiletter control sequences out of 65536+600000
+ 232 fonts using 76351371 bytes
  66i,20n,70p,1610b,2902s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></Users/mk/Library/Fonts/xits-math.otf></Users/mk/Library/Fonts/xits-math.otf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman Italic.ttf></Library/Fonts/Times New Roman Bold Italic.ttf>
-Output written on okp_kp.pdf (29 pages, 988321 bytes).
+</Users/mk/Library/Fonts/xits-math.otf></Users/mk/Library/Fonts/xits-math.otf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman.ttf></Library/Fonts/Times New Roman Bold.ttf></Library/Fonts/Times New Roman Italic.ttf></Library/Fonts/Times New Roman Bold Italic.ttf>
+Output written on okp_kp.pdf (35 pages, 996442 bytes).
 
-PDF statistics: 438 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 131072)
- 120 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 313 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 103 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
