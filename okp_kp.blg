@@ -1,18 +1,18 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'okp_kp.blg'
-[66] biber-darwin:313> INFO - === Wed Dec 19, 2018, 05:58:14
-[119] Biber.pm:371> INFO - Reading 'okp_kp.bcf'
-[708] Biber.pm:857> INFO - Found 13 citekeys in bib section 0
-[830] Biber.pm:3976> INFO - Processing section 0
-[881] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[1144] bibtex.pm:1500> INFO - LaTeX decoding ...
-[1338] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/mk/Library/texmf/bibtex/bib/biblio.bib'
-[1344] Utils.pm:193> WARN - Entry alias 'ivanov_tm' already has an alias 'ivanov:tm', skipping ...
-[1348] Utils.pm:193> WARN - Duplicate entry key: 'timiryazev:ptp' in file '/Users/mk/Library/texmf/bibtex/bib/biblio.bib', skipping ...
-[1529] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1529] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1530] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
-[1530] Biber.pm:3810> INFO - No sort tailoring available for locale 'ru-RU'
-[1576] bbl.pm:617> INFO - Writing 'okp_kp.bbl' with encoding 'UTF-8'
-[1581] bbl.pm:720> INFO - Output to okp_kp.bbl
-[1581] Biber.pm:110> INFO - WARNINGS: 2
+[0] Config.pm:305> INFO - Logfile is 'okp_kp.blg'
+[62] biber-darwin:313> INFO - === Wed Dec 19, 2018, 19:51:27
+[105] Biber.pm:371> INFO - Reading 'okp_kp.bcf'
+[323] Biber.pm:857> INFO - Found 13 citekeys in bib section 0
+[347] Biber.pm:3976> INFO - Processing section 0
+[364] Biber.pm:4136> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[539] bibtex.pm:1500> INFO - LaTeX decoding ...
+[651] bibtex.pm:1316> INFO - Found BibTeX data source '/Users/mk/Library/texmf/bibtex/bib/biblio.bib'
+[656] Utils.pm:193> WARN - Entry alias 'ivanov_tm' already has an alias 'ivanov:tm', skipping ...
+[657] Utils.pm:193> WARN - Duplicate entry key: 'timiryazev:ptp' in file '/Users/mk/Library/texmf/bibtex/bib/biblio.bib', skipping ...
+[777] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[777] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[777] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[778] Biber.pm:3810> INFO - No sort tailoring available for locale 'ru-RU'
+[812] bbl.pm:617> INFO - Writing 'okp_kp.bbl' with encoding 'UTF-8'
+[817] bbl.pm:720> INFO - Output to okp_kp.bbl
+[818] Biber.pm:110> INFO - WARNINGS: 2
