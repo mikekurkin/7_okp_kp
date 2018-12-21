@@ -241,42 +241,42 @@ $$ t = \frac{D}{2} = \frac{18,5}{2} = \SI{9,25}{\milli\meter} $$
 Табличное значение осевой подачи корректируется по формуле:
 $$ S_o = {S_o}_\text{т} K_{S_\text{м}} $$
 
-$ {S_o}_\text{т} = \SI{0,56}{\milli\meter\per\rev} $ \cite[карта 46]{guzeev:rr} \par
+$ {S_o}_\text{т} = \SI{0,26}{\milli\meter\per\rev} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{S_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
 Табличное значение скорости резания корректируется по формуле:
 $$ V = V_\text{т} K_{V_\text{м}} K_{V_\text{з}} K_{V_\text{ж}} K_{V_\text{т}} K_{V_\text{w}} K_{V_\text{и}} K_{V_\text{l}} K_{V_\text{п}} $$ 
 
-$ V_\text{т} = \SI{22,8}{\meter\per\minute} $ \cite[карта 46]{guzeev:rr} \par
+$ V_\text{т} = \SI{23,8}{\meter\per\minute} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{V_\text{м}} = K_{V_\text{з}} = K_{V_\text{ж}} = K_{V_\text{т}} = K_{V_\text{w}} = K_{V_\text{и}} = K_{V_\text{l}} = K_{V_\text{п}} = 1,0 $ \cite[карта 53]{guzeev:rr} 
 
 \begin{gather*}
-  S_o = 0,56 \cdot 1,0 = \SI{0,56}{\milli\meter\per\rev} \\
-  V = 22,8 \cdot 1,0 = \SI{22,8}{\meter\per\minute} \\
-  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 22,8}{\pi \cdot 18,5} = \SI{392,3}{\rev\per\minute} \\
-  V_s = S_o n = 0,56 \cdot 392,3 = \SI{219,7}{\milli\meter\per\minute}
+  S_o = 0,26 \cdot 1,0 = \SI{0,26}{\milli\meter\per\rev} \\
+  V = 23,8 \cdot 1,0 = \SI{23,8}{\meter\per\minute} \\
+  n = \frac{1000 V}{\pi D} = \frac{1000 \cdot 23,8}{\pi \cdot 18,5} = \SI{409,5}{\rev\per\minute} \\
+  V_s = S_o n = 0,26 \cdot 409,5 = \SI{106,5}{\milli\meter\per\minute}
 \end{gather*}
 
-Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{355}{\rev\per\minute}$, ${V_S}_\text{ф} = \SI{200}{\milli\meter\per\minute}$; тогда ${S_o}_\text{ф} = \SI{0,56}{\milli\meter\per\rev}$.
+Станок позволяет регулировать обороты шпинделя и подачи бесступенчато. Фактические режимы резания округляют до значений из стандартных рядов предпочтительных чисел в меньшую сторону: $n_\text{ф} = \SI{400}{\rev\per\minute}$, ${V_S}_\text{ф} = \SI{100}{\milli\meter\per\minute}$; тогда ${S_o}_\text{ф} = \SI{0,25}{\milli\meter\per\rev}$.
 
 Фактическая скорость резания:
-$$ V_\text{ф} = \frac{\pi D n_\text{ф}}{1000} = \frac{\pi \cdot 18,5 \cdot 355}{1000} = \SI{20,6}{\meter\per\minute} $$
+$$ V_\text{ф} = \frac{\pi D n_\text{ф}}{1000} = \frac{\pi \cdot 18,5 \cdot 355}{1000} = \SI{23,3}{\meter\per\minute} $$
 
 Табличное значение мощности резания корректируется по формуле:
 $$ N = \frac{N_\text{т}}{K_{N_\text{м}}} $$
 
-$ N_\text{t} = \SI{2,74}{\kilo\watt} $ \cite[карта 46]{guzeev:rr} \par
+$ N_\text{t} = \SI{1,36}{\kilo\watt} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{N_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
-$$ N = \frac{2,74}{1,0} = \SI{2,74}{\kilo\watt} $$
+$$ N = \frac{1,36}{1,0} = \SI{1,36}{\kilo\watt} $$
 
 Табличное значение осевой силы резания корректируется по формуле:
 $$ P = \frac{P_\text{т}}{K_{P_\text{м}}} $$
 
-$ P_\text{t} = \SI{8087}{\newton} $ \cite[карта 46]{guzeev:rr} \par
+$ P_\text{t} = \SI{4345}{\newton} $ \cite[карта 46]{guzeev:rr} \par
 $ K_{P_\text{м}} = 1,0 $ \cite[карта 53]{guzeev:rr}
 
-$$ P = \frac{8087}{1,0} = \SI{8087}{\newton} $$ \\
+$$ P = \frac{4345}{1,0} = \SI{4345}{\newton} $$ \\
 
 Основное время обработки одного отверстия рассчитывается по формуле:
 \begin{equation*}
@@ -292,7 +292,7 @@ $l_\text{пер}$ --- длина на перебег $\left[\si{\milli\meter}\r
 \end{equation*}
 \begin{align*}
     l_\text{вр} = 1 + \frac{18,5}{2} \cdot \tan{\ang{31}} &= \SI{6,6}{\milli\meter} \\
-    t_o = \frac{6,6 + 35 + 0}{200} &= \SI{0,21}{\minute}
+    t_o = \frac{6,6 + 35 + 0}{100} &= \SI{0,42}{\minute}
 \end{align*}
 
 
@@ -632,12 +632,12 @@ $l_\text{пер}$ --- длина на перебег $\left[\si{\milli\meter}\r
       \hline
     \endfoot
 
-    T01 & 9,25  & 0,56  & 355  & 20,6  & 0,21  \\ \hline
-    T02 & 5,1   & 0,42  & 750  & 24    & 0,09  \\ \hline
-    T03 & 0,6   & 0,74  & 400  & 24,8  & 0,1   \\ \hline
-    T04 & 0,15  & 0,76  & 200  & 12,6  & 0,22  \\ \hline
+    T01 & 9,25  & 0,25  & 400  & 23,3  & 0,42  \\ \hline
+    T02 & 5,1   & 0,43  & 750  & 24    & 0,09  \\ \hline
+    T03 & 0,6   & 0,80  & 400  & 24,8  & 0,1   \\ \hline
+    T04 & 0,15  & 0,75  & 200  & 12,6  & 0,22  \\ \hline
     T05 & —     & 1,75  & 180  & 6,8   & 0,15  \\ \hline
-    T06 & 1,6   & 0,17  & 315  & 19,8  & 0,03  \\ \hline
+    T06 & 1,6   & 0,16  & 315  & 19,8  & 0,03  \\ \hline
 
 
   \end{longtabu}
@@ -667,7 +667,7 @@ $t_{oi}$ --- основное время выполнения перехода $
 
 \begin{multline*}
   t_\text{о} = 6 \cdot ( 4 \; t_{o}^\text{T01} + 8 \; t_{o}^\text{T02} + 4 \; 
-  t_{o}^\text{T03} + 4 \; t_{o}^\text{T04} + 8 \; t_{o}^\text{T05} + 12 \; t_{o}^\text{T06} ) = \\ = 6 \cdot ( 4 \cdot 0,21 + 8 \cdot 0,09 + 4 \cdot 0,1 + 4 \cdot 0,22 + 8 \cdot 0,15 + 12 \cdot 0,03 ) = \\ = \SI{26,40}{\minute}
+  t_{o}^\text{T03} + 4 \; t_{o}^\text{T04} + 8 \; t_{o}^\text{T05} + 12 \; t_{o}^\text{T06} ) = \\ = 6 \cdot ( 4 \cdot 0,42 + 8 \cdot 0,09 + 4 \cdot 0,1 + 4 \cdot 0,22 + 8 \cdot 0,15 + 12 \cdot 0,03 ) = \\ = \SI{31,44}{\minute}
 \end{multline*}
 
 Вспомогательное время рассчитывается по формуле:
@@ -737,11 +737,11 @@ $D_\text{изм}$, $L_\text{изм}$ --- размеры контролируем
 Для обработки на горизонтально-фрезерных станках с длиной стола \SIrange{700}{1500}{\milli\meter} $ k = \SI{4,5}{\percent} $ \cite[прил.~5]{malzen:normirovanie}.
 
 \begin{equation*}
-  t_\text{обс} = \frac{4,5}{100} \; (26,40 + 6,48) = \SI{1,48}{\minute}
+  t_\text{обс} = \frac{4,5}{100} \; (31,44 + 6,48) = \SI{1,71}{\minute}
 \end{equation*}
 
 \begin{equation*}
-  t_\text{шт} = 26,40 + 6,48 + 1,48 = \SI{34,36}{\minute}
+  t_\text{шт} = 31,44 + 6,48 + 1,71 = \SI{39,63}{\minute}
 \end{equation*}
 
 Штучно-калькуляционное время $t_\text{шт}^\text{к}$ включает в себя подготовительно-заключительное время на операцию. Его можно приближённо рассчитать по формуле: 
@@ -752,7 +752,7 @@ $D_\text{изм}$, $L_\text{изм}$ --- размеры контролируем
 
 Для обработки на фрезерных станках с ЧПУ $ \varphi_\text{k} = 1,25 $ \cite[прил.~7]{malzen:normirovanie}.
 \begin{equation*}
-  t_\text{шт}^\text{к} = 1,25 \cdot 34,36 = \SI{60,73}{\minute}
+  t_\text{шт}^\text{к} = 1,25 \cdot 39,63 = \SI{49,54}{\minute}
 \end{equation*}
 
 
