@@ -1425,5 +1425,29 @@ $\left[ \sigma \right]_p$ --- допускаемое напряжение $\left
 
 \printbibliography[heading=none]
 
+\begin{appendices}
+
+  \renewcommand\thechapter{\Asbuk{chapter}}
+  \setcounter{chapter}{0}
+  
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Чертёж детали}\label{ap:drw}}]{./graphics/drum_body.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Чертёж заготовки}\label{ap:prt}}]{./graphics/drum_body-part.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Маршрут обработки}\label{ap:route}}]{./graphics/machining_route.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Схемы операционных наладок}\label{ap:nal}}]{./graphics/naladka_040.pdf}
+
+  \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/naladka_045.pdf}
+
+  \includepdf[offset=0mm -10mm,angle=90,scale=0.8,pagecommand={\append{Сборочные чертежи приспособлений}\label{ap:rig}}]{./graphics/rig_040.pdf}
+
+  \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/rig_045.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=0,scale=0.8,pagecommand={\append{Спецификации}\label{ap:sp}}]{./graphics/sp_040.pdf}
+
+  \includepdf[angle=0,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/sp_045.pdf}
+
+  \end{appendices}
 
 \end{document}
