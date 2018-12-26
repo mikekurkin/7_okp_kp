@@ -12,10 +12,6 @@
 
 \addbibresource{biblio.bib}
 
-\usepackage{tikz}
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-             \node[shape=circle,draw,inner sep=2pt, minimum size=8mm] (char) {#1};}}
-
 \cfoot{}
 \rfoot{\thepage}
 \fancypagestyle{plain}{ 
@@ -1437,16 +1433,21 @@ $\left[ \sigma \right]_p$ --- допускаемое напряжение $\left
   \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Маршрут обработки}\label{ap:route}}]{./graphics/machining_route.pdf}
 
   \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Схемы операционных наладок}\label{ap:nal}}]{./graphics/naladka_040.pdf}
-
   \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/naladka_045.pdf}
 
   \includepdf[offset=0mm -10mm,angle=90,scale=0.8,pagecommand={\append{Сборочные чертежи приспособлений}\label{ap:rig}}]{./graphics/rig_040.pdf}
-
   \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/rig_045.pdf}
 
   \includepdf[offset=0mm -5mm,angle=0,scale=0.8,pagecommand={\append{Спецификации}\label{ap:sp}}]{./graphics/sp_040.pdf}
-
   \includepdf[angle=0,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/sp_045.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Маршрутная карта}\label{ap:mk}}]{./graphics/mk.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Операционные карты}\label{ap:ok}}]{./graphics/ok_040.pdf}
+  \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/ok_045.pdf}
+
+  \includepdf[offset=0mm -5mm,angle=90,scale=0.8,pagecommand={\append{Карты эскизов}\label{ap:ke}}]{./graphics/ke_040.pdf}
+  \includepdf[angle=90,scale=0.8,pagecommand={\fancyfoot[r]{\thepage}}]{./graphics/ke_045.pdf}
 
   \end{appendices}
 
